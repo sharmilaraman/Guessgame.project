@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap");
+
+/* reset code starts */
+* {
+  font-family: "Philosopher", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 540;
+}
+/* reset code ends */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 32rem;
+  height: 20rem;
+  box-shadow: 2px 10px 6px rgba(0, 0, 0, 0.6), -0 0 0.1rem rgba(0, 0, 0, 0.6);
+  border-radius: 0.6rem;
+  font-size: 1.3rem;
+  padding: 1.2rem;
+  color: rgb(139, 11, 11);
+  transition: all 0.3s;
+}
+.card:hover {
+  box-shadow: 3px 12px 6px rgba(0, 0, 0, 0.6),
+    -0.1rem 0 0.1rem rgba(0, 0, 0, 0.6);
+}
+.card-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.form-field {
+  margin-bottom: 1.1rem;
+}
+input {
+  border: none;
+  border: 0.1px solid;
+  border-radius: 0.6rem;
+  padding: 0.1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 35%;
+}
+.btn {
+  border: none;
+  border: 0.1rem solid #797EF6;
+  border-radius: 0.6rem;
+  padding: 0.3rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 1rem;
+  color: white;
+  background-color: brown;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: rgb(25, 3, 155);
+  transform: scale(1.1);
+}
+.buttons {
+  display: flex;
+  justify-content: end;
+  margin: 0 1.1rem 1rem;
+}
+p {
+  text-align: center;
+}
+.large-text {
+  font-size: 1.4rem;
+  color: white;
+}
